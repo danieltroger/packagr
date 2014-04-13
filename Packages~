@@ -1,0 +1,32 @@
+Package: com.rpetrich.pushprivacy
+Priority: optional
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Configurable lock screen privacy for push notifications
+Name: PushPrivacy
+Depends: firmware (>= 5), mobilesubstrate, preferenceloader, applist (>= 1.4.3)
+Author: Ryan Petrich
+Version: 0.1
+Installed-Size: 36
+MD5sum: dd8665b9f6468d565109cf631731fce0
+SHA1: 84eeb3f89653cd1c177849e2675a83846e91a700
+SHA256: 73cd773dc6d31261ce5d653e30f8d42a119dd6df5dab3017d7d09b7319dff87d
+
+Maintainer: hosting <hosting@iphonerepocenter.com>
+Author: Zach S. (Appman) <theappman1@gmail.com>
+Name: iOS 5 Apple Flare BootLogo
+Package: com.iphonerepocenter.ios5appleflarebootlogo
+Depends: org.chronic-dev.animate, firmware (>= 4.2)
+Section: Addons (BootLogo)
+Installed-Size: 2684
+Version: 1.0
+Architecture: iphoneos-arm
+Description: from iOS 5 first boot, animated bootlogo
+Depiction: http://moreinfo.iphonerepocenter.com/moreinfo/ios5appleflarebootlogoDp.php
+Website: http://moreinfo.iphonerepocenter.com/moreinfo/ios5appleflarebootlogoDp.php
+Sponsor: iphonerepocenter.com <http://iphonerepocenter.com>
+dev: theappman1
+MD5sum: d7e4ef4e5ea0d9626b19d034bf8c8842
+SHA1: 913b325f4bbf98c5fcc6f0c1a7d60364f562f65c
+SHA256: 74a7da4493d11b012f84c3f6a51d1999c981a599602bcfdc87c4da2ca5af558b
+

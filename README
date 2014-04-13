@@ -1,0 +1,6 @@
+How to use:
+place your .debs in the folder debs,
+you have to have php and bash installed.
+Then enter a terminal and execute cd /the/dir/where/this/file/is [enter]
+./createPackages [enter]
+now upload Packages.bz2 and the debs folder to your webpage, DONE!
