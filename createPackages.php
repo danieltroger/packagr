@@ -23,6 +23,7 @@ $control .= "\nSize: " . filesize($deb);
 $output .= $control . "\n\n\n";
 }
 shell_exec("rm -rf {$tempdir}");
-//file_put_contents("Packages",$output);
+file_put_contents("Packages",$output);
 file_put_contents("Packages.bz2",bzcompress($output));
+shell_exec("gzip Packages");
 ?>
